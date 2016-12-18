@@ -1,4 +1,6 @@
 #!/bin/sh
 
-apk add docker &&
+apk update &&
+    apk upgrade &&
+    apk add docker &&
     true
